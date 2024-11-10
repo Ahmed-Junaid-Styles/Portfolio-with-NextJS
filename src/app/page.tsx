@@ -1,5 +1,5 @@
 import React from 'react'
-import Nav from './Nav'
+import MainNav from './MainNav'
 import Home from './Home'
 import About from './About'
 import Services from './Services'
@@ -8,10 +8,11 @@ import ContactUs from './ContactUs'
 import Footer from './Footer'
 
 
+
 const Main = () => {
   return (
     <div>
-      <Nav/>
+      <MainNav/>
       <Home/>
       <About/>
       <Services/>

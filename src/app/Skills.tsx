@@ -12,9 +12,10 @@ import Next_logo from '@/app/images/NextJS_logo.png'
 
 
 const Skills = () => {
+  
   return (
     <div className='bg-gray-300' id='skills'>
-      <div className='w-9/12 mx-auto flex flex-col items-center'>
+      <div className='w-9/12 mx-auto flex flex-col items-center xsm:w-auto 2xs:w-auto'>
         <h2 className='text-center text-3xl font-bold mb-7'>Skills</h2>
         <SkillCard src={HTML_logo} skillname='HTML' percentage='90%'/>
         <SkillCard src={CSS_logo} skillname='CSS' percentage='75%'/>
